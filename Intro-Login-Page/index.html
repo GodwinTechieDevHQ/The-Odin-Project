@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-Up Form</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="logo-area">
+        <img src="https://cdn.statically.io/gh/TheOdinProject/curriculum/5f37d43908ef92499e95a9b90fc3cc291a95014c/html_css/project-sign-up-form/odin-lined.png" alt="Odin Logo">
+        <p>ODIN</p>
+    </div>
+
+    <div class="credits">
+        <p>Photo by <a href="https://unsplash.com/@haliewestphoto">Hailey West</a> on
+            <a href="https://unsplash.com/photos/green-leaf-plant-in-close-up-photography-25xggax4bSA">Unsplash</a>
+        </p>
+    </div>
+
+    <div class="flex-container">
+
+        <div class="image-area">
+
+            <img src="https://images.unsplash.com/photo-1585202900225-6d3ac20a6962?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D.png" alt="background image of leaves">
+
+        </div>
+
+        <div class="form-area">
+
+            <div class="intro">
+                <p>
+                    This is not a real online service! You know you need something like this in your life to help you
+                    realize
+                    your deepest dreams. Sign up now to get started.
+                    <br>
+                    <br>
+                    You <em>know</em> you want to.
+                </p>
+
+
+            </div>
+
+            <div class="inputs">
+                <p>Let's do this!</p>
+                <form id="signup-form" action="https://httpbin.org/post" method="POST">
+                    <div class="form-row">
+                        <div class="form-item">
+                            <label for="first_name">FIRST NAME</label>
+                            <br>
+                            <input type="text" id="first_name" name="first_name" minlength="3" required>
+                        </div>
+
+                        <div class="form-item">
+                            <label for="last_name">LAST NAME</label>
+                            <br>
+                            <input type="text" id="last_name" name="last_name" minlength="3" required>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-item">
+                            <label for="email">EMAIL</label>
+                            <br>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+
+                        <div class="form-item">
+                            <label for="phone_number">PHONE NUMBER</label>
+                            <br>
+                            <input type="tel" id="phone_number" name="phone_number" minlength="5" required
+                                pattern="^[\+]?[(]?[0-9]{3}[)]?[-\s\.]?[0-9]{3}[-\s\.]?[0-9]{4,6}$">
+                        </div>
+                    </div>
+ 
+                    <div class="form-row">
+                        <div class="form-item">
+                            <label for="password">PASSWORD</label>
+                            <br>
+                            <input type="password" id="password" name="password" required minlength="7" maxlength="21">
+                        </div>
+
+                        <div class="form-item">
+                            <label for="confirm_password">CONFIRM PASSWORD</label>
+                            <br>
+                            <input type="password" id="confirm_password" name="confirm_password" required minlength="7"
+                                maxlength="21">
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+            <div class="buttons">
+                <button type="submit" form="signup-form">Create Account</button>
+                <p>Already have an account?<a href=""> Log in</a></p>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
