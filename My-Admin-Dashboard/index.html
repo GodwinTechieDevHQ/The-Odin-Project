@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/@mdi/font/css/materialdesignicons.min.css"
+  />
+    <title>Admin Dashboard</title>
+  </head>
+  <body>
+    <div class="sidebar">
+      <h2 class="sidebar-heading">
+        <i class="mdi mdi-view-dashboard sidebar-icon"></i> Dashboard
+      </h2>
+      <ul class="sidebar-contents">
+        <li><i class="mdi mdi-home sidebar-icon"></i> Home</li>
+        <li>
+          <i class="mdi mdi-card-account-details-outline sidebar-icon"></i> Profile
+        </li>
+        <li><i class="mdi mdi-message-reply sidebar-icon"></i> Messages</li>
+        <li><i class="mdi mdi-clock-time-three sidebar-icon"></i> History</li>
+        <li><i class="mdi mdi-note-multiple sidebar-icon"></i> Tasks</li>
+        <li><i class="mdi mdi-account-group sidebar-icon"></i> Communities</li>
+      </ul>
+      <ul class="sidebar-options">
+        <li><i class="mdi mdi-cog sidebar-icon"></i> Settings</li>
+        <li><i class="mdi mdi-help-box-outline sidebar-icon"></i> Support</li>
+        <li><i class="mdi mdi-shield-check-outline sidebar-icon"></i> Privacy</li>
+      </ul>
+    </div>
+
+    <div class="header">
+      <div class="header-top">
+        <div class="header-top-search">
+          <img
+            src="https://cdn.jsdelivr.net/npm/@mdi/svg/svg/magnify.svg"
+            class="header-top-search-magnify header-icon"
+            alt="Search icon"
+          />
+          <input class="header-top-search-bar" />
+        </div>
+    
+        <div class="header-top-account">
+          <img
+            src="https://cdn.jsdelivr.net/npm/@mdi/svg/svg/bell-ring-outline.svg"
+            class="header-top-notify header-icon"
+            alt="Notification bell icon"
+          />
+          <img
+            src="https://i.pravatar.cc/100?img=1"
+            class="header-top-profile profile-picture"
+            alt="Profile picture"
+          />
+          <div class="header-top-username"><strong>Godwin John</strong></div>
+        </div>
+      </div>
+      <div class="header-bottom">
+        <div class="header-bottom-greeting">
+          <img
+            src="https://i.pravatar.cc/100?img=1"
+            class="header-bottom-greeting-profile profile-picture"
+            alt="Profile picture"
+          />
+          <div class="header-bottom-greeting-text">
+            <div class="header-bottom-greeting-top">Hi there,</div>
+            <div class="header-bottom-greeting-bottom">
+              Godwin John
+            </div>
+          </div>
+        </div>
+        <div class="header-bottom-buttons">
+          <button class="header-bottom-button">New</button>
+          <button class="header-bottom-button">Upload</button>
+          <button class="header-bottom-button">Share</button>
+        </div>
+      </div>
+    </div>
+    
+
+    <div class="main-content">
+      <div class="main-content-projects">
+        <h2 class="main-content-projects-title title">Your Projects</h2>
+        <div class="main-content-project-container">
+          <div class="main-content-project">
+            <div class="main-content-project-text">
+              <h3 class="main-content-project-title">Super Wicked Project</h3>
+              <p class="main-content-project-para para">
+                A revolutionary app that simplifies task management with AI-driven
+                automation.
+              </p>
+            </div>
+            <div class="main-content-project-icons">
+              <img
+                src="https://cdn.jsdelivr.net/npm/@mdi/svg/svg/star-plus-outline.svg"
+                alt="Star icon"
+                class="main-content-project-icon"
+              />
+              <img
+                src="https://cdn.jsdelivr.net/npm/@mdi/svg/svg/eye-plus-outline.svg"
+                alt="Eye icon"
+                class="main-content-project-icon"
+              />
+              <img
+                src="https://cdn.jsdelivr.net/npm/@mdi/svg/svg/source-fork.svg"
+                alt="Fork symbol"
+                class="main-content-project-icon"
+              />
+            </div>
+          </div>
+      
+          <div class="main-content-project">
+            <div class="main-content-project-text">
+              <h3 class="main-content-project-title">Another Cool Project</h3>
+              <p class="main-content-project-para para">
+                A social media analytics tool that gives you real-time insights and
+                trends. 📊
+              </p>
+            </div>
+            <div class="main-content-project-icons">
+              <img
+                src="https://cdn.jsdelivr.net/npm/@mdi/svg/svg/star-plus-outline.svg"
+                alt="Star icon"
+                class="main-content-project-icon"
+              />
+              <img
+                src="https://cdn.jsdelivr.net/npm/@mdi/svg/svg/eye-plus-outline.svg"
+                alt="Eye 0icon"
+                class="main-content-project-icon"
+              />
+              <img
+                src="https://cdn.jsdelivr.net/npm/@mdi/svg/svg/source-fork.svg"
+                alt="Fork symbol"
+                class="main-content-project-icon"
+              />
+            </div>
+          </div>
+      
+          <div class="main-content-project">
+            <div class="main-content-project-text">
+              <h3 class="main-content-project-title">Damn Cool Project</h3>
+              <p class="main-content-project-para para">
+                A real-time collaboration platform for remote teams to work together seamlessly. 🌍
+              </p>
+            </div>
+            <div class="main-content-project-icons">
+              <img
+                src="https://cdn.jsdelivr.net/npm/@mdi/svg/svg/star-plus-outline.svg"
+                alt="Star icon"
+                class="main-content-project-icon"
+              />
+              <img
+                src="https://cdn.jsdelivr.net/npm/@mdi/svg/svg/eye-plus-outline.svg"
+                alt="Eye icon"
+                class="main-content-project-icon"
+              />
+              <img
+                src="https://cdn.jsdelivr.net/npm/@mdi/svg/svg/source-fork.svg"
+                alt="Fork symbol"
+                class="main-content-project-icon"
+              />
+            </div>
+          </div>
+      
+          <div class="main-content-project">
+            <div class="main-content-project-text">
+              <h3 class="main-content-project-title">One Project Laidat</h3>
+              <p class="main-content-project-para para">
+                A smart budgeting app that tracks your expenses and helps you save more. 💰
+              </p>
+            </div>
+            <div class="main-content-project-icons">
+              <img
+                src="https://cdn.jsdelivr.net/npm/@mdi/svg/svg/star-plus-outline.svg"
+                alt="Star icon"
+                class="main-content-project-icon"
+              />
+              <img
+                src="https://cdn.jsdelivr.net/npm/@mdi/svg/svg/eye-plus-outline.svg"
+                alt="Eye icon"
+                class="main-content-project-icon"
+              />
+              <img
+                src="https://cdn.jsdelivr.net/npm/@mdi/svg/svg/source-fork.svg"
+                alt="Fork symbol"
+                class="main-content-project-icon"
+              />
+            </div>
+          </div>
+      
+          <div class="main-content-project">
+            <div class="main-content-project-text">
+              <h3 class="main-content-project-title">Just a Project</h3>
+              <p class="main-content-project-para para">
+                A portfolio generator that creates stunning personal websites with a few clicks. 🚀
+              </p>
+            </div>
+            <div class="main-content-project-icons">
+              <img
+                src="https://cdn.jsdelivr.net/npm/@mdi/svg/svg/star-plus-outline.svg"
+                alt="Star icon"
+                class="main-content-project-icon"
+              />
+              <img
+                src="https://cdn.jsdelivr.net/npm/@mdi/svg/svg/eye-plus-outline.svg"
+                alt="Eye icon"
+                class="main-content-project-icon"
+              />
+              <img
+                src="https://cdn.jsdelivr.net/npm/@mdi/svg/svg/source-fork.svg"
+                alt="Fork symbol"
+                class="main-content-project-icon"
+              />
+            </div>
+          </div>
+      
+          <div class="main-content-project">
+            <div class="main-content-project-text">
+              <h3 class="main-content-project-title">Placeholder Project</h3>
+              <p class="main-content-project-para para">
+                A customizable online store template for e-commerce businesses. 🛒
+              </p>
+            </div>
+            <div class="main-content-project-icons">
+              <img
+                src="https://cdn.jsdelivr.net/npm/@mdi/svg/svg/star-plus-outline.svg"
+                alt="Star icon"
+                class="main-content-project-icon"
+              />
+              <img
+                src="https://cdn.jsdelivr.net/npm/@mdi/svg/svg/eye-plus-outline.svg"
+                alt="Eye icon"
+                class="main-content-project-icon"
+              />
+              <img
+                src="https://cdn.jsdelivr.net/npm/@mdi/svg/svg/source-fork.svg"
+                alt="Fork symbol"
+                class="main-content-project-icon"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="main-content-announcements">
+        <h2 class="main-content-announcements-title title">Announcements</h2>
+        <div class="main-content-announcements-container">
+          <div class="main-content-announcement">
+            <h3 class="main-content-announcement-title">Site Maintenance</h3>
+            <p class="main-content-announcement-para para">
+              Vestibulum condimentum tellus lacus, in accumsan elit maximus ac.
+              Donec hendrerit sodales congue...
+            </p>
+          </div>
+          <hr />
+          <div class="main-content-announcement">
+            <h3 class="main-content-announcement-title">Community Share Day</h3>
+            <p class="main-content-announcement-para para">
+              Nam vel lectus tincidunt, rutrum nulla eu, ornare libero. Aliquam
+              dictum accumsan porttitor...
+            </p>
+          </div>
+          <hr />
+          <div class="main-content-announcement">
+            <h3 class="main-content-announcement-title">
+              Updated Privacy Policy
+            </h3>
+            <p class="main-content-announcement-para para">
+              Phasellus efficitur nisi eget elit consectetur, eget condimentum
+              ante auctor. Cras fringilla sagittis sem in mattis...
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="main-content-trending">
+        <h2 class="main-content-trending-title title">Trending</h2>
+        <div class="main-content-trending-container">
+            <div class="main-content-trending-user">
+                <img
+                    src="https://emojicdn.elk.sh/🚜?style=twitter"
+                    class="main-content-trending-user-profile"
+                    alt="Farmer emoji"
+                />
+                <div class="main-content-trending-user-name">
+                    <h3 class="main-content-trending-user-handle">@ambo</h3>
+                    <p class="main-content-trending-user-job">Professional Farmer</p>
+                </div>
+            </div>
+            <div class="main-content-trending-user">
+                <img
+                    src="https://i.pravatar.cc/150?img=5&u=animeboi"
+                    class="main-content-trending-user-profile"
+                    alt="Anime profile"
+                />
+                <div class="main-content-trending-user-name">
+                    <h3 class="main-content-trending-user-handle">@animeboi</h3>
+                    <p class="main-content-trending-user-job">Roku ban san Dai Daicho</p>
+                </div>
+            </div>
+            <div class="main-content-trending-user">
+                <img
+                    src="https://api.dicebear.com/7.x/bottts-neutral/svg?seed=SeniorMan"
+                    class="main-content-trending-user-profile"
+                    alt="Bot avatar"
+                />
+                <div class="main-content-trending-user-name">
+                    <h3 class="main-content-trending-user-handle">@weesom</h3>
+                    <p class="main-content-trending-user-job">Senior Man</p>
+                </div>
+            </div>
+            <div class="main-content-trending-user">
+                <img
+                    src="https://twemoji.maxcdn.com/v/latest/svg/265f.svg"
+                    class="main-content-trending-user-profile"
+                    alt="Chess pawn"
+                />
+                <div class="main-content-trending-user-name">
+                    <h3 class="main-content-trending-user-handle">@edwardemmanuel</h3>
+                    <p class="main-content-trending-user-job">Chess Strategist</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+  </body>
+</html>
